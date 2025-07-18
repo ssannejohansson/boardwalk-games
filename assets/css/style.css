@@ -101,12 +101,12 @@ h2 {
     background-color: var(--highlight-color);
     color: white;
     height: 30px; 
-    font-size: 80%;
+    font-size: 0.8rem;
     line-height: 30px;
 }
 
 #events .table {
-    font-size: 60%;
+    font-size: 0.7rem;
 }
 /* Games section */ 
 
@@ -167,6 +167,17 @@ h2 {
 
 
 /* Media queries */
+
+/* Small screens and up */
+@media screen and (min-width: 576px) {
+    /* increase font size in events table when screen size is large enough */
+    #events .table {
+        font-size: 1rem;
+    }
+    .student-discount {
+        font-size: 1rem;
+    }
+}
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
