@@ -95,6 +95,19 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Events */
+
+#events .discount {
+    background-color: var(--highlight-color);
+    color: white;
+    height: 30px; 
+    font-size: 80%;
+    line-height: 30px;
+}
+
+#events .table {
+    font-size: 60%;
+}
 /* Games section */ 
 
 #new-games .card, #fav-games .card {
