@@ -70,6 +70,12 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
+/* Games section */ 
+
+#new-games .card, #fav-games .card {
+    border: none; 
+}
+
 /* Grid visualisation css for testing
 
 .container,
